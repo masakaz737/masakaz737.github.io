@@ -1,0 +1,12 @@
+/* .devicons-html5{
+  font-family: "devicons";
+  width: 100%;
+}
+
+.devicons-html5:before{
+  content:"\e636";
+} */
+
+.devicons{
+  font-size: 10rem;
+}

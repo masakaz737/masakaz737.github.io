@@ -7,11 +7,11 @@
 }
 /* =======================================================
 *
-* 	Template Style 
+* 	Template Style
 *
 * ======================================================= */
 body {
-  font-family: "Space Mono", Arial, serif;
+  /* font-family: "Space Mono", Arial, serif; */
   font-weight: 400;
   font-size: 16px;
   line-height: 1.7;
@@ -64,7 +64,7 @@ p {
 
 h1, h2, h3, h4, h5, h6, figure {
   color: #000;
-  font-family: "Space Mono", Arial, serif;
+  /* font-family: "Space Mono", Arial, serif; */
   font-weight: 400;
   margin: 0 0 20px 0;
 }
@@ -981,9 +981,12 @@ h1, h2, h3, h4, h5, h6, figure {
   padding: 50px 0;
   float: left;
   width: 100%;
+  background-color: #FF9000;
+  text-align: center;
 }
 #fh5co-footer p:last-child {
   margin-bottom: 0;
+  color: #fff;
 }
 
 .contact-info {
@@ -1087,7 +1090,7 @@ input[type="text"] {
 .btn {
   margin-right: 4px;
   margin-bottom: 4px;
-  font-family: "Space Mono", Arial, serif;
+  /* font-family: "Space Mono", Arial, serif; */
   font-size: 16px;
   font-weight: 400;
   -webkit-border-radius: 30px;
@@ -1289,5 +1292,3 @@ input[type="text"] {
 .js .animate-box {
   opacity: 0;
 }
-
-/*# sourceMappingURL=style.css.map */
