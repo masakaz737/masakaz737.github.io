@@ -904,6 +904,23 @@ h1, h2, h3, h4, h5, h6, figure {
 .fh5co-blog .blog-text h3 a {
   color: black;
 }
+.coming-soon{
+  height:100%;
+  width: 100%;
+  background-color: rgb(0, 0, 0, 0.3)
+}
+.coming-soon p{
+  position: absolute;
+  top:50%;
+  left: 50%;
+  -ms-transform: translate(-50%,-50%);
+  -webkit-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+  margin:0;
+  padding:0;
+  color:#fff;
+  font-size: 2rem;
+}
 
 #fh5co-consult {
   display: -webkit-box;
