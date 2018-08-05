@@ -306,12 +306,8 @@ h1, h2, h3, h4, h5, h6, figure {
   border-bottom: none;
 }
 
-.fh5co-bg-dark {
-  background: #2F3C4F;
-  background: #FF9000;
-}
 .fh5co-bg-dark .fh5co-heading h2 {
-  color: #fff !important;
+  color: #000000 !important;
 }
 
 .info {
@@ -791,17 +787,13 @@ h1, h2, h3, h4, h5, h6, figure {
   margin-bottom: 0;
 }
 #fh5co-started .fh5co-heading h2 {
-  color: #fff;
   margin-bottom: 20px !important;
-}
-#fh5co-started .fh5co-heading p {
-  color: rgba(255, 255, 255, 0.8);
 }
 #fh5co-started .btn {
   height: 54px;
   border: none !important;
-  background: #fff;
-  color: #FF9000;
+  background: #FF9000;
+  color: #fff;
   font-size: 16px;
   text-transform: uppercase;
   font-weight: 400;
@@ -1308,4 +1300,30 @@ input[type="text"] {
 
 .js .animate-box {
   opacity: 0;
+}
+
+#fh5co-skills{
+  background-color: #FF9000;
+}
+
+#fh5co-skills h2{
+  color: #fff;
+}
+
+#fh5co-skills p{
+  color: #fff;
+  font-weight: bold;
+}
+
+.skills{
+  color: #FF9000;
+  background-color: #fff;
+  border-radius: 20px;
+  max-width: 165px;
+  margin: auto;
+  padding: 10px 0;
+}
+
+.feature-left{
+  width: 100%;
 }
