@@ -874,16 +874,6 @@ h1, h2, h3, h4, h5, h6, figure {
 .fh5co-blog .blog-text .stuff li:first-child {
   margin-left: 0;
 }
-.fh5co-blog .blog-text .stuff li:last-child {
-  float: right;
-}
-.fh5co-blog .blog-text .stuff li:last-child a {
-  color: #000;
-}
-.fh5co-blog .blog-text .stuff li:last-child i {
-  padding-right: 0;
-  padding-left: 10px;
-}
 .fh5co-blog .blog-text .stuff li i {
   font-size: 14px;
   padding-right: 5px;
@@ -1322,6 +1312,9 @@ input[type="text"] {
   max-width: 165px;
   margin: auto;
   padding: 10px 0;
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
 }
 
 .feature-left{
